@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: sans-serif;
+  background: rgb(13, 40, 40);
+  background: radial-gradient(
+    circle,
+    rgba(13, 40, 40, 1) 0%,
+    rgba(93, 60, 41, 1) 69%,
+    rgba(0, 11, 9, 1) 96%
+  );
+  height: 100vh;
+}
+
+select {
+  height: 10%;
+  width: 15%;
+  font-size: 2rem;
+  cursor: pointer;
+
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+  border: none;
+  border-radius: 1rem;
+
+  margin: 1rem;
+  padding: 1rem;
+}
